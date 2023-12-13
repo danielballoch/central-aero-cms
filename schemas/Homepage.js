@@ -21,6 +21,16 @@ export default {
             of: [{type: 'block'}]
         },
         {
+            title: 'Intro Image 1',
+            name: 'intro_image_1',
+            type: 'image'
+        },
+        {
+            title: 'Intro Image 2',
+            name: 'intro_image_2',
+            type: 'image'
+        },
+        {
             name: 'engineering_title',
             type: 'string',
             title: 'Engineering Title'
@@ -32,6 +42,11 @@ export default {
             of: [{type: 'block'}]
         },
         {
+            title: 'Engineering Image',
+            name: 'engineering_image',
+            type: 'image'
+        },
+        {
             name: 'electrical_title',
             type: 'string',
             title: 'Electrical Title'
@@ -41,6 +56,11 @@ export default {
             name: 'electrical_text',
             type: 'array',
             of: [{type: 'block'}]
+        },
+        {
+            title: 'Electrical Image',
+            name: 'electrical_image',
+            type: 'image'
         },
     ]
   }
