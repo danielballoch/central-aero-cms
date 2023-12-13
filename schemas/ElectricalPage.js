@@ -9,6 +9,12 @@ export default {
             title: 'Hero Title'
         },
         {
+            name: 'hero_text',
+            title: 'Hero Text',
+            type: 'array',
+            of: [{type: 'block'}]
+        },
+        {
             name: 'banner_text',
             type: 'string',
             title: 'Banner Text'
