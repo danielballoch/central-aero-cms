@@ -10,6 +10,7 @@ import EngineeringServices from './EngineeringServices'
 import FAQ from './FAQ'
 import ContactDetails from './ContactDetails'
 import ContactPeople from './ContactPeople'
+import TermsAndConditions from './TermsAndConditions'
 import Footer from './Footer'
 
 export const schemaTypes = [
@@ -24,5 +25,6 @@ export const schemaTypes = [
     FAQ, 
     ContactDetails, 
     ContactPeople, 
+    TermsAndConditions,
     Footer
 ]
