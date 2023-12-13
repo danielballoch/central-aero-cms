@@ -2,7 +2,7 @@
 export default {
     name: 'electrical-components',
     type: 'document',
-      title: 'Electrical Components',
+      title: 'Shop Parts Components',
     fields: [
         {
             name: 'component_title',
